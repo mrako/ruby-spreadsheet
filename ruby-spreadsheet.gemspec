@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary = "The Spreadsheet Library is designed to read and write Spreadsheet Documents"
   s.require_path = "lib"
 
-  s.add_dependency("ruby-ole")
+  s.add_dependency("ruby-ole", [">= 1.2.11.1"])
 
   s.has_rdoc = false
 
