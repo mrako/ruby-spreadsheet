@@ -1,11 +1,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require 'spreadsheet.rb'
+# require 'spreadsheet.rb'
 
 Gem::Specification.new do |s|
   s.name = "spreadsheet"
-  s.version = Spreadsheet::VERSION
+  s.version = "0.6.4.1"
   s.author = "Hannes Wyss"
   s.email = "hannes.wyss@gmail.com"
   s.homepage = "http://www.spreadsheet.ch"
